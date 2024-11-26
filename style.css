@@ -1,0 +1,117 @@
+*html {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+main img {
+    height: 15rem;
+    width: 15rem ;
+    object-fit: cover; 
+}
+
+.main-image {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    gap: 5rem;
+    margin-top: 3rem;
+}
+
+.foot-image {
+    height: 3.5rem;
+    width: 3.5rem ;
+    
+}
+
+.overlay img{
+    height: 15rem;
+    width: 15rem ;
+    position: absolute;
+    top: 33%;
+    left: 43.5%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    font-variant: small-caps;
+    font-family: sans-serif;
+}
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+p {
+    color: white;
+    font-size: .8rem;
+}
+
+#wel {
+    position: absolute;
+    top: 28%;
+    left: 28%;
+}
+
+#dig {
+    position: absolute;
+    top: 28%;
+    right: 27%;
+}
+
+#lag {
+    position: absolute;
+    bottom: 12%;
+    left: 15%;
+}
+
+#abj {
+    position: absolute;
+    bottom: 12%;
+    right: 15%;
+}
+
+.foot {
+    color: white;
+    font-size: 5rem;
+    justify-items: center;
+    margin-top: 8rem;   
+}
+#brandstories {
+    justify-items: center;
+}
+
+.footer {
+    justify-items: center;
+
+}
+.dot {
+    margin-top: -10rem;
+    margin-bottom: -3rem;
+    font-size: 20rem;
+}
+
+.text{
+    width: 35rem;
+    font-size: 1.2rem;
+    text-align: center;
+    line-height: 2.2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.socials a {
+    font-size: 1rem;
+    margin: 1rem;  
+}
